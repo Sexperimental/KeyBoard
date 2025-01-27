@@ -295,4 +295,6 @@ if (isMobile()) {
     if (viewportMeta) {
         viewportMeta.setAttribute('content', 'width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scalable=no');
     }
+    var keyboard = document.getElementById('keyboard');
+    keyboard.style.top = '84%';
 }
