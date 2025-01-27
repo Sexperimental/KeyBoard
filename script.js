@@ -223,7 +223,7 @@ document.getElementById('key38').addEventListener('click', function () {
     } else if (command.startsWith("/time set sunset")) {
         log.textContent = "[Logger] :" + "Set the time to 156000";
     } else if (command.startsWith("/")) {
-        log.textContent = "[Logger] :" + "Unknown command: Please check that the command exists and that you have permission to use it.";
+        log.textContent = "[Logger] :" + "Unknown command";
     }
 
     var logContainer = document.getElementById('log');
