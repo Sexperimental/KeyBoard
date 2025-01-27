@@ -301,10 +301,10 @@ if (isMobile()) {
 
     keyboard.style.top = '89%';
 
-    textbox.style.top = '-160%';
+    textbox.style.top = '-180%';
     textbox.style.width = '730px';
     textbox.style.height = '60px';
     textbox.style.borderRadius = "29px"
 
-    text.style.top = '-182%';
+    text.style.top = '-202%';
 }
