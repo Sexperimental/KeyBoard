@@ -284,3 +284,15 @@ document.getElementById('key55').addEventListener('click', function() {
     var textbox = document.getElementById('textbox');
     textbox.value += '';
 });
+
+function isMobile() {
+    const regexp = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+    return (window.navigator.userAgent.search(regexp) !== -1);
+}
+
+if (isMobile()) {
+    const viewportMeta = document.querySelector('meta[name="viewport"]');
+    if (viewportMeta) {
+        viewportMeta.setAttribute('content', 'width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scalable=no');
+    }
+}
