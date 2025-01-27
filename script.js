@@ -307,4 +307,5 @@ if (isMobile()) {
     textbox.style.borderRadius = "29px"
 
     text.style.top = '-252%';
+    text.style.fontSize = "25px"
 }
