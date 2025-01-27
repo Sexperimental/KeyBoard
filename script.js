@@ -297,4 +297,7 @@ if (isMobile()) {
     }
     var keyboard = document.getElementById('keyboard');
     keyboard.style.top = '89%';
+
+    var textbox = document.getElementById('textbox');
+    textbox.style.top = '-60%';
 }
