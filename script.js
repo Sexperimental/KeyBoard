@@ -303,8 +303,8 @@ if (isMobile()) {
 
     textbox.style.top = '-230%';
     textbox.style.width = '730px';
-    textbox.style.height = '60px';
-    textbox.style.borderRadius = "29px"
+    textbox.style.height = '65px';
+    textbox.style.borderRadius = "32px"
 
     text.style.top = '-265%';
     text.style.fontSize = "35px"
