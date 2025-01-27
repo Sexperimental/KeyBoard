@@ -57,6 +57,7 @@ body {
     transition: border 0.3s ease;
     font-family: Roboto;
     font-size: 15px;
+    pointer-events: none;
 }
 
 .textbox:hover {
