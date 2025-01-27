@@ -15,6 +15,17 @@ body {
     font-size: 20px;
 }
 
+.log {
+    color: white;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 10px;
+}
+
+.log-entry {
+    margin-bottom: 5px;
+}
+
 .keyboard {
     position: absolute;
     top: 60%;
@@ -46,8 +57,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 770px;
-    height: 100px;
-    border-radius: 5px;
+    height: 80px;
+    border-radius: 39px;
     background-color: rgb(30, 30, 30);
     border: thin solid rgb(60, 60, 60);
     color: white;
