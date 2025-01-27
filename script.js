@@ -302,9 +302,9 @@ if (isMobile()) {
     keyboard.style.top = '89%';
 
     textbox.style.top = '-160%';
-    textbox.style.width = '750px';
-    textbox.style.height = '40px';
-    textbox.style.borderRadius = "19px"
+    textbox.style.width = '730px';
+    textbox.style.height = '60px';
+    textbox.style.borderRadius = "29px"
 
-    text.style.top = '-185%';
+    text.style.top = '-182%';
 }
