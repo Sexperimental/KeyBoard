@@ -300,6 +300,8 @@ if (isMobile()) {
     var text = document.getElementById('text');
 
     keyboard.style.top = '89%';
-    textbox.style.top = '-100%';
-    text.style.top = '-100%';
+
+    textbox.style.top = '-150%';
+
+    text.style.top = '-170%';
 }
