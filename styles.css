@@ -5,39 +5,18 @@ body {
     user-select: none;
 }
 
-.text {
-    color: white;
-    position: absolute;
-    top: -70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: Roboto;
-    font-size: 20px;
-}
-
-.log {
-    color: white;
-    position: absolute;
-    font-family: Roboto;
-    font-size: 10px;
-}
-
-.log-entry {
-    margin-bottom: 5px;
-}
-
 .keyboard {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0.8); 
+    transform: translate(-50%, -50%) scale(0.8);
     width: 765px;
     height: 270px;
     background-color: rgba(30, 30, 30);
     border-radius: 10px;
     border: 7px solid rgba(30, 30, 30);
     opacity: 0;
-    animation: popupAnimation 0.5s ease-out forwards;
+    animation: popupAnimation 0.4s ease-out forwards;
 }
 
 @keyframes popupAnimation {
@@ -45,34 +24,11 @@ body {
         opacity: 0;
         transform: translate(-50%, -50%) scale(0.8);
     }
+
     100% {
         opacity: 1;
         transform: translate(-50%, -50%) scale(1);
     }
-}
-
-.textbox {
-    position: absolute;
-    top: -30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 770px;
-    height: 80px;
-    border-radius: 39px;
-    background-color: rgb(30, 30, 30);
-    border: thin solid rgb(60, 60, 60);
-    color: white;
-    padding: 0 30px;
-    outline: none;
-    box-sizing: border-box;
-    transition: border 0.3s ease;
-    font-family: Roboto;
-    font-size: 15px;
-    pointer-events: none;
-}
-
-.textbox:hover {
-    border: thin solid rgb(85, 85, 85);
 }
 
 .key {
@@ -85,9 +41,9 @@ body {
     height: 50px;
     border-radius: 10px;
     font-family: Roboto;
-    display: flex;             
-    justify-content: center;  
-    align-items: center;         
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     transition: background-color 0.3s ease;
 }
@@ -432,7 +388,7 @@ body {
     top: 220px;
     width: 50px;
     height: 50px;
-    left:70px;
+    left: 70px;
 }
 
 #key52 {
@@ -462,7 +418,3 @@ body {
     height: 50px;
     left: 630px;
 }
-
-
-
-  
