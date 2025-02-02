@@ -60,16 +60,5 @@ document.addEventListener("DOMContentLoaded", function () {
         if (viewportMeta) {
             viewportMeta.setAttribute('content', 'width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scalable=no');
         }
-        const keyboard = document.getElementById('keyboard');
-        const textbox = document.getElementById('textbox');
-        const text = document.getElementById('text');
-
-        keyboard.style.top = '89%';
-        textbox.style.top = '-230%';
-        textbox.style.width = '730px';
-        textbox.style.height = '65px';
-        textbox.style.borderRadius = "32px";
-        text.style.top = '-275%';
-        text.style.fontSize = "35px";
     }
 });
